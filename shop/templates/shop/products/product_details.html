@@ -22,9 +22,9 @@
                 {% if products.trending %}
                 <div class="hot">Hot</div>
                 {% endif %}
-                <img src="{{products.product_image.url}}" class="col-lg-10 col-md-6" alt="{{products}}">
+                <img src="{{products.product_image.url}}" class="col-12" alt="{{products}}">
             </div>
-            <div class="col-8 my-3">
+            <div class="col-lg-8 col-md-6 my-3">
                 <h5 class="text-success">{{products | upper}}</h5>
                 <P>{{products.vendor}}</P>
                 <p>{{products.description}} </p>
